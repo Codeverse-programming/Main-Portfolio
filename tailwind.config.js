@@ -8,6 +8,7 @@ module.exports = {
       'box1': '#FF843F',
       'box2': '#5398FF',
       'bg1': '#EADFD8',
+      'bg2': '#FECC17',
       'box3': '#31D4AD',
       'box4': '#F46F6F',
       'box5': '#D1A4FF',

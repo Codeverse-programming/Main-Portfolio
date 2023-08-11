@@ -574,6 +574,10 @@ video {
   }
 }
 
+.static{
+  position: static;
+}
+
 .fixed{
   position: fixed;
 }
@@ -602,6 +606,10 @@ video {
   left: 0px;
 }
 
+.left-96{
+  left: 24rem;
+}
+
 .right-0{
   right: 0px;
 }
@@ -610,8 +618,8 @@ video {
   top: 0px;
 }
 
-.z-50{
-  z-index: 50;
+.top-4{
+  top: 1rem;
 }
 
 .col-span-12{
@@ -656,6 +664,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -664,12 +680,16 @@ video {
   margin-top: 6rem;
 }
 
-.mr-8{
-  margin-right: 2rem;
+.mt-3{
+  margin-top: 0.75rem;
 }
 
-.-ml-8{
-  margin-left: -2rem;
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -700,6 +720,14 @@ video {
   height: 33.333333%;
 }
 
+.h-56{
+  height: 14rem;
+}
+
+.h-8{
+  height: 2rem;
+}
+
 .h-full{
   height: 100%;
 }
@@ -724,8 +752,8 @@ video {
   width: 5rem;
 }
 
-.w-3\/5{
-  width: 60%;
+.w-8{
+  width: 2rem;
 }
 
 .w-fit{
@@ -743,6 +771,10 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.resize-none{
+  resize: none;
 }
 
 .grid-cols-12{
@@ -797,6 +829,30 @@ video {
   gap: 2rem;
 }
 
+.space-x-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .self-center{
   align-self: center;
 }
@@ -819,6 +875,10 @@ video {
 
 .rounded-sm{
   border-radius: 0.125rem;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .border-2{
@@ -873,14 +933,18 @@ video {
   background-color: rgb(209 164 255 / var(--tw-bg-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-box2{
+.bg-bg2{
   --tw-bg-opacity: 1;
-  background-color: rgb(83 152 255 / var(--tw-bg-opacity));
+  background-color: rgb(254 204 23 / var(--tw-bg-opacity));
 }
 
 .object-contain{
@@ -958,6 +1022,15 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-36{
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .pb-8{
   padding-bottom: 2rem;
 }
@@ -970,14 +1043,6 @@ video {
   padding-right: 0.75rem;
 }
 
-.pt-4{
-  padding-top: 1rem;
-}
-
-.pt-40{
-  padding-top: 10rem;
-}
-
 .pt-10{
   padding-top: 2.5rem;
 }
@@ -986,12 +1051,16 @@ video {
   padding-top: 5rem;
 }
 
-.pt-32{
-  padding-top: 8rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
-.pt-14{
-  padding-top: 3.5rem;
+.pt-40{
+  padding-top: 10rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
 }
 
 .text-center{
@@ -1004,6 +1073,11 @@ video {
 
 .font-logo-font{
   font-family: Audiowide, cursive;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl{
@@ -1021,6 +1095,11 @@ video {
   line-height: 1;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1029,6 +1108,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -1041,6 +1125,10 @@ video {
 
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .leading-10{
@@ -1080,6 +1168,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
 }
 
 .shadow{
@@ -1161,9 +1253,10 @@ input[type="checkbox"] {
 }
 
 nav #burger:checked~ul {
-  left: 0;
+  right: 0%;
   transition: all 0.3s ease;
-  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  background-color: black;
   padding-left: 2em;
   padding-right: 2em;
   line-height: 3;
@@ -1234,6 +1327,10 @@ nav #burger:checked~ul {
   max-width: 48rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.zindex{
+  z-index: 99;
 }
 
 .hover\:scale-110:hover{
@@ -1333,11 +1430,6 @@ nav #burger:checked~ul {
     line-height: 1.75rem;
   }
 
-  .md\:text-black{
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
-
   .md\:text-white{
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1349,8 +1441,24 @@ nav #burger:checked~ul {
     position: static;
   }
 
+  .lg\:sticky{
+    position: sticky;
+  }
+
   .lg\:-bottom-10{
     bottom: -2.5rem;
+  }
+
+  .lg\:top-32{
+    top: 8rem;
+  }
+
+  .lg\:col-span-6{
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
   }
 
   .lg\:mt-20{
@@ -1361,12 +1469,12 @@ nav #burger:checked~ul {
     margin-top: 7rem;
   }
 
-  .lg\:mt-48{
-    margin-top: 12rem;
+  .lg\:mt-36{
+    margin-top: 9rem;
   }
 
-  .lg\:mt-0{
-    margin-top: 0px;
+  .lg\:mt-48{
+    margin-top: 12rem;
   }
 
   .lg\:block{
@@ -1377,8 +1485,25 @@ nav #burger:checked~ul {
     display: flex;
   }
 
+  .lg\:grid{
+    display: grid;
+  }
+
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:h-12{
+    height: 3rem;
+  }
+
+  .lg\:h-fit{
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .lg\:w-12{
+    width: 3rem;
   }
 
   .lg\:w-20{
@@ -1391,6 +1516,10 @@ nav #burger:checked~ul {
 
   .lg\:w-full{
     width: 100%;
+  }
+
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:items-center{
@@ -1407,6 +1536,10 @@ nav #burger:checked~ul {
 
   .lg\:gap-10{
     gap: 2.5rem;
+  }
+
+  .lg\:gap-32{
+    gap: 8rem;
   }
 
   .lg\:gap-8{
@@ -1427,13 +1560,25 @@ nav #burger:checked~ul {
     padding-right: 6rem;
   }
 
-  .lg\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pb-20{
+    padding-bottom: 5rem;
   }
 
   .lg\:pt-0{
     padding-top: 0px;
+  }
+
+  .lg\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pt-24{
+    padding-top: 6rem;
   }
 
   .lg\:text-4xl{
@@ -1454,6 +1599,20 @@ nav #burger:checked~ul {
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:font-bold{
+    font-weight: 700;
+  }
+
+  .lg\:text-black{
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-selected-text{
+    --tw-text-opacity: 1;
+    color: rgb(244 111 111 / var(--tw-text-opacity));
   }
 }
 

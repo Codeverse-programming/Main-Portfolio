@@ -18,9 +18,10 @@ input[type="checkbox"] {
 }
 
 nav #burger:checked~ul {
-    left: 0;
+    right: 0%;
     transition: all 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-color: black;
     padding-left: 2em;
     padding-right: 2em;
     line-height: 3;
@@ -68,4 +69,8 @@ nav #burger:checked~ul {
 
 .section-paragraph {
     @apply text-black w-full max-w-3xl;
+}
+
+.zindex{
+    z-index: 99;
 }
