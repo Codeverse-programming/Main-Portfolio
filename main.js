@@ -16,10 +16,10 @@ const AmagiLoader = {
             divContainer.style.transition = 'all 0.2s ease-in-out';
             
             var div = document.createElement('h1');
-            div.textContent = 'Code_Verse';
+            div.textContent = 'Codeverse';
             div.style.position = 'absolute';
-            div.style.left = '40%';
-            div.style.top = '50%';
+            div.style.left = '30%';
+            div.style.top = '40%';
             div.style.zIndex = '9999';
             div.style.fontSize = '2rem';
             div.style.color = 'black';
@@ -43,3 +43,17 @@ AmagiLoader.show();
 setTimeout(() => {
     AmagiLoader.hide();
 }, 3000);
+
+const clickableImages = document.querySelectorAll('.clickable-image');
+const overlays = document.querySelectorAll('.overlay');
+const closeButtons = document.querySelectorAll('.close-button');
+
+clickableImages.forEach((image, index) => {
+    image.addEventListener('click', () => {
+        overlays[index].style.display = 'block';
+    });
+
+    closeButtons[index].addEventListener('click', () => {
+        overlays[index].style.display = 'none';
+    });
+});

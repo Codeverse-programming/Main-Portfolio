@@ -20,12 +20,15 @@ input[type="checkbox"] {
 nav #burger:checked~ul {
     right: 0%;
     transition: all 0.3s ease;
-    /* background-color: rgba(0, 0, 0, 0.9); */
     background-color: black;
     padding-left: 2em;
     padding-right: 2em;
     line-height: 3;
     text-align: center;
+}
+
+.rgb{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .desc #show-more:checked~.comment,
@@ -73,4 +76,10 @@ nav #burger:checked~ul {
 
 .zindex{
     z-index: 99;
+}
+.zindex1{
+    z-index: 1000;
+}
+.w-10-10{
+    width: 10%;
 }

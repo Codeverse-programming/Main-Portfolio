@@ -2,5 +2,6 @@
     "liveServer.settings.port": 5506,
     "cSpell.words": [
         "tailwindcss"
-    ]
+    ],
+    "livePreview.defaultPreviewPath": "/index.html"
 }

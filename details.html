@@ -18,7 +18,9 @@
         <nav class="lg:flex lg:items-center lg:justify-between mx-auto px-6 lg:px-14 lg:px-24 w-full">
             <div class=" flex justify-between items-center">
                 <a href="./index.html">
-                    <div class=" text-3xl font-bold text-black ">Code_<span class=" text-selected-text">Verse</span>
+                    <div class=" text-3xl font-bold text-selected-text flex gap-2 lg:gap-3 items-center">
+                        <img src="./dist/img/logo.png" alt="" class=" w-10 lg:w-10">
+                        <h1>Code<span class=" text-black">verse</span></h1>
                     </div>
                 </a>
                 <span class=" text-black text-xl cursor-pointer lg:hidden">
@@ -107,22 +109,46 @@
 
     <div class="mx-auto mt-16 px-6 py-8 lg:px-14 lg:px-24 w-full">
         <div class="grid grid-cols-12 gap-5">
-            <div class=" grid col-span-12 md:grid md:col-span-6">
-                <img src="./dist/img/mockup1.png" alt="" class=" block mb-6">
+            <div class=" grid col-span-12 md:grid md:col-span-6 relative">
+                <img src="./dist/img/mockup1.png" alt="" class=" block mb-6 clickable-image lg:no-clickable-image">
+                <div class="overlay hidden fixed top-0 left-0 w-full h-full rgb zindex1 md:hidden overflow-hidden"
+                    id="overlay1">
+                    <img src="./dist/img/mockup1.png" alt="Image" class="enlarged-image w-full h-full object-cover">
+                    <span class="close-button absolute top-5 right-5 text-2xl text-white cursor-pointer"
+                        id="closeButton1">&times;</span>
+                </div>
             </div>
             <div class="grid col-span-12 md:grid md:col-span-6">
-                <img src="./dist/img/mockup2.jpg" alt="" class=" block mb-6">
+                <img src="./dist/img/mockup2.jpg" alt="" class=" block mb-6 clickable-image">
+                <div class="overlay hidden fixed top-0 left-0 w-full h-full rgb zindex1 md:hidden overflow-hidden"
+                    id="overlay2">
+                    <img src="./dist/img/mockup2.jpg" alt="Image" class="enlarged-image w-full h-full object-contain">
+                    <span class="close-button absolute top-5 right-5 text-2xl text-white cursor-pointer"
+                        id="closeButton2">&times;</span>
+                </div>
             </div>
         </div>
         <div class="grid grid-cols-12 gap-5">
             <div class="grid col-span-12 md:grid md:col-span-6">
-                <img src="./dist/img/mockup3.jpg" alt="" class=" block mb-6">
+                <img src="./dist/img/mockup3.jpg" alt="" class=" block mb-6 clickable-image">
+                <div class="overlay hidden fixed top-0 left-0 w-full h-full rgb zindex1 md:hidden overflow-hidden"
+                    id="overlay3">
+                    <img src="./dist/img/mockup3.jpg" alt="Image" class="enlarged-image w-full h-full object-contain">
+                    <span class="close-button absolute top-5 right-5 text-2xl text-white cursor-pointer"
+                        id="closeButton3">&times;</span>
+                </div>
             </div>
             <div class="grid col-span-12 md:grid md:col-span-6">
-                <img src="./dist/img/mockup4.jpg" alt="">
+                <img src="./dist/img/mockup4.jpg" alt="" class="block clickable-image">
+                <div class="overlay hidden fixed top-0 left-0 w-full h-full rgb zindex1 md:hidden overflow-hidden"
+                    id="overlay4">
+                    <img src="./dist/img/mockup4.jpg" alt="Image" class="enlarged-image w-full h-full object-contain">
+                    <span class="close-button absolute top-5 right-5 text-2xl text-white cursor-pointer"
+                        id="closeButton4">&times;</span>
+                </div>
             </div>
         </div>
-        <div class="text-center mx-auto mt-6">
+        <div class="text-center mx-auto mt-16">
             <a href="./work.html">
                 <button class=" w-fit px-6 py-6 bg-transparent font-bold border-2 border-black text-black">VIEW MORE
                     WORK</button>
@@ -130,8 +156,9 @@
         </div>
     </div>
 
-    <div class="lg:mt-0 mx-auto px-6 py-20 lg:px-14 lg:px-24 w-full bg-white relative">
-        <div class="project flex justify-between items-center border-4 border-black rounded-lg px-6 py-24 relative">
+    <div class="lg:mt-0 mx-auto px-6 py-20 lg:px-14 lg:px-24 w-full relative">
+        <div
+            class="project flex justify-between items-center border-4 border-black rounded-lg px-6 py-24 relative bg-white">
             <img src="./dist/img/project.png" alt="" class=" absolute w-1/5 md:w-36 -top-14 left-0">
             <div class="project-text">
                 <h2 class=" project-title text-black lg:text-4xl mb-5 md:w-80 lg:w-full">Have a great project?</h2>
@@ -148,6 +175,86 @@
                 class=" absolute w-1/5 md:w-36 lg:w-20 bottom-0 lg:-bottom-10 right-0">
         </div>
     </div>
+
+    <footer>
+        <div class="lg:mt-0 mx-auto px-6 py-10 lg:px-14 lg:px-24 w-full">
+            <div
+                class="footer-text grid grid-cols-12 md:gap-10 border-t-4 border-dashed border-black border-b-4 border-dashed border-black py-10">
+                <div class="header-text grid col-span-12 md:grid md:col-span-4">
+                    <a href="./index.html" class=" block mb-6">
+                        <div class=" text-3xl font-bold text-selected-text ">
+                            <img src="./dist/img/logo.png" alt="" class=" inline-block w-10">
+                            Code<span class=" text-black">verse</span>
+                        </div>
+                    </a>
+                    <p class=" section-paragraph mb-6">Whether you want to make a new website or talk about web
+                        sustainability, I'm ready to meet you!
+                    </p>
+                </div>
+                <div class="menu-text grid col-span-6 md:grid md:col-span-4 leading-10 self-center">
+                    <h4 class=" work-title text-black mb-6">Menu</h4>
+                    <ul class=" text-black">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./work.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="utility-text grid col-span-6 md:grid md:col-span-4 leading-10">
+                    <h4 class=" work-title text-black">Utility Pages</h4>
+                    <ul class=" text-black">
+                        <li>
+                            <a href="./license.html">License</a>
+                        </li>
+                        <li>
+                            <a href="./changelog.html">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 grid grid-cols-12">
+                <!-- Socials -->
+                <div class="grid col-span-12 md:grid md:col-span-6">
+                    <div class="flex justify-center md:justify-normal space-x-6">
+                        <!-- Skype -->
+                        <a href="https://twitter.com/codenation11"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-twitter text-1xl text-black"></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://www.linkedin.com/in/vera-bassey-8a8345255/"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-linkedin  text-1xl text-black"></i>
+                        </a>
+                        <!-- Github -->
+                        <a href="https://github.com/programmingwithVee"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-github text-1xl text-black"></i>
+                        </a>
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/CodeVerse23"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-facebook  text-1xl text-black"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="by text-center text-black mt-6 grid col-span-12 md:grid md:col-span-6">
+                    <p class=" text-xs"> &copy; Codeverse by Vera Bassey. All rights reserved </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
 
     <script src="./main.js"></script>
 </body>
