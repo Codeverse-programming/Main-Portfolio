@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Code_Verse | Web Developer - Transforming visions into captivating digital realities </title>
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./dist/icomoon/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./dist/img/logo-2.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"> -->
+</head>
+
+<div class="preloader"></div>
+
+<body class="bg-body text-white font-gantari">
+    <header class="py-4 fixed top-0 left-0 right-0 w-full shadow-xl bg-body zindex">
+        <nav class="lg:flex lg:items-center lg:justify-between mx-auto px-6 lg:px-14 lg:px-24 w-full">
+            <div class=" flex justify-between items-center">
+                <a href="./index.html">
+                    <div class=" text-3xl font-bold text-selected-text flex gap-2 lg:gap-3 items-center">
+                        <img src="./dist/img/logo.png" alt="" class=" w-10 lg:w-10">
+                        <h1>Code<span class=" text-black">verse</span></h1>
+                    </div>
+                </a>
+                <span class=" text-black text-xl cursor-pointer lg:hidden">
+                    <label for="burger">
+                        <i class="icon-bars"></i>
+                    </label>
+                </span>
+            </div>
+            <input type="checkbox" name="burger" id="burger">
+            <ul
+                class=" lg:flex lg:bg-transparent lg:gap-10 lg:items-center lg:justify-center fixed zindex top-0 lg:static w-full h-full pt-40 lg:pt-0 -right-full leading-10 transition-all">
+                <span class=" text-white text-3xl cursor-pointer lg:hidden absolute top-4 mr-10 block right-0 zindex">
+                    <label for="burger">
+                        <i class="icon-close"></i>
+                    </label>
+                </span>
+                <li>
+                    <a href="./index.html"
+                        class=" text-2xl md:text-lg hover:text-selected-text duration-500 md:text-white lg:text-black">Home</a>
+                </li>
+                <li>
+                    <a href="./work.html"
+                        class="text-2xl md:text-lg font-normal hover:text-selected-text duration-500 md:text-white lg:text-black">Projects</a>
+                </li>
+                <li>
+                    <a href="./about.html"
+                        class=" text-2xl md:text-lg hover:text-selected-text duration-500 md:text-white lg:text-selected-text lg:font-bold">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html"
+                        class="text-2xl md:text-lg font-normal hover:text-selected-text duration-500 md:text-white lg:text-black">Contact</a>
+                </li>
+                <a href="./contact.html" class=" lg:hidden">
+                    <button class=" w-full px-6 py-2 bg-box1 font-bold">Get in Touch</button>
+                </a>
+            </ul>
+            <a href="./contact.html" class="hidden lg:block">
+                <button class=" w-full px-2 py-2 bg-box1 md:text-white shadow-xl font-normal text-sm">Get in
+                    Touch</button>
+            </a>
+        </nav>
+    </header>
+
+    <div class="mt-24 md:mt-36 pt-10 lg:mt-40 mx-auto px-3 lg:px-14 lg:px-24 w-full" id="home">
+
+        <div class="mt-0 mb-8">
+            <h1 class=" font-semibold text-black text-3xl md:text-5xl lg:text-5xl text-center break mb-6 break">Great
+                brands have great <br> stories.This is mine. <br> Meet <span class="text-selected-text">Code</span>verse
+            </h1>
+            <p class=" text-center text-black font-semibold break text-md">Welcome to my digital realm, where lines of
+                code merge with
+                creativity to craft seamless web experiences. <br> I'm Vera Bassey, a passionate web developer with a
+                heart
+                for innovation and an eye for design.</p>
+        </div>
+
+        <div class="aboutus relative">
+            <img src="./dist/img/about.jpeg" alt="" class=" aboutimg border-4 border-bg2 side-shadow">
+        </div>
+
+    </div>
+
+    <!-- <div class="mt-20 mx-auto px-6 lg:px-14 lg:px-24 w-full">
+
+        <div class="flex items-center justify-center flex-wrap md:flex-nowrap md:justify-between">
+            <div class="work-text">
+                <h2 class=" secondary-title text-black">Technologies I work with</h2>
+                <p class=" section-paragraph text-black font-normal">I create beautiful and interactive web experiences
+                    with these sought after tools.</p>
+            </div>
+            <div class="flex flex-wrap gap-10 items-center mb-10 md:justify-between">
+                <span class=" text-selected-text-1 text-3xl font-bold block text-box1">
+                    <i class=" fa-solid fa-code block pr-3 text-4xl"></i>
+                    HTML</span>
+                <span class=" text-selected-text-1 text-3xl font-bold block text-box2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="tailwind-css" class=" inline">
+                        <path
+                            d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z">
+                        </path>
+                    </svg>tailwindcss
+                </span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-24 items-center mb-10">
+                <span class=" text-selected-text-1 text-3xl font-bold block text-box2">
+                    <i class=" fa-brands fa-react block pr-3 text-4xl"></i>React</span>
+                <span class=" text-selected-text-1 text-3xl font-bold block text-box4"><i class="fa-brands fa-js block pr-3 text-4xl"></i>JScript</span>
+            </div>
+            <div class="flex flex-wrap gap-20 items-center">
+                <span class=" text-selected-text-1 text-3xl font-bold text-box3">
+                    <i class=" fa-brands fa-python block pr-3 text-4xl"></i>Python</span>
+                <span class=" text-selected-text-1 text-3xl font-bold text-black">
+                    <i class="fa-brands fa-github pr-3 text-4xl"></i>Github</span>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="mt-10 md:mt-10 lg:mt-10 mx-auto pt-6 px-6 lg:px-14 lg:px-24 w-full" id="techstack">
+        <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-12 mb-6">
+                <h1 class=" text-black text-3xl max-w-3xl">My journey in the world of code began as a fascination and
+                    evolved into a devotion. With a degree in Software Development and 3 years of experience, I've honed
+                    my skills in <span class=" text-box2 font-bold">React</span>, <span
+                        class=" text-box3 font-bold">Django</span>, <span class=" font-bold">Github</span> and <span
+                        class=" text-box4 font-bold">Tailwindcss</span> to build
+                    dynamic and
+                    user-centric websites that leave a lasting impression.</h1>
+            </div>
+            <div class=" col-span-12 md:ml-96 self-center">
+                <p class=" text-black text-xl max-w-3xl md:max-w-xl">From responsive designs that adapt seamlessly to
+                    any device to
+                    clean and efficient backends that power the magic, I
+                    ensure every project is a symphony of technology and aesthetics.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mx-auto mt-16 px-6 py-8 lg:px-14 lg:px-24 w-full bg-box3">
+        <div class="grid grid-cols-12 gap-5 py-16">
+            <div class="grid col-span-12 lg:grid lg:col-span-6 lg:sticky lg:h-fit lg:top-32">
+                <h1 class=" text-black text-3xl md:text-5xl font-bold mb-6 md:mb-0">My Values</h1>
+            </div>
+            <div class="grid col-span-12 lg:grid lg:col-span-6">
+                <div class="faqs mx-auto">
+                    <div class="faq1  border-b-2 border-black mb-14">
+                        <input type="checkbox" name="" id="show-faq">
+                        <h2 class=" text-2xl md:text-4xl font-bold mb-3 text-black flex justify-between">Quality
+                            <label for="show-faq" class="">
+                                <i class=" icon-arrow_drop_down text-2xl bg-black rounded-full text-white"></i>
+                            </label>
+                        </h2>
+                        <p
+                            class=" section-paragraph mb-3 text-xl md:mb-0 max-h-0 overflow-hidden comment transition-all duration-500">
+                            I'm committed to delivering top-notch solutions that meet the highest standards of quality.
+                            From the initial concept
+                            to the final deliverable, I pay meticulous attention to detail, ensuring every aspect of our
+                            work reflects our
+                            dedication to excellence.
+                        </p>
+                    </div>
+                    <div class="faq1 border-b-2 mb-14 border-black mt-0">
+                        <input type="checkbox" name="" id="show-faq1">
+                        <h2 class="  text-2xl md:text-4xl text-black font-bold flex justify-between">Collaboration
+                            <label for="show-faq1" class="">
+                                <i class=" icon-arrow_drop_down bg-black rounded-full text-white text-2xl"></i>
+                            </label>
+                        </h2>
+                        <p
+                            class=" section-paragraph mb-3 text-xl max-h-0 overflow-hidden comment transition-all duration-500">
+                            I believe in the power of collaboration. By working closely with our clients and fostering a
+                            collaborative environment
+                            within our team, I unlock the collective genius that fuels innovation and leads to
+                            exceptional outcomes. I value open
+                            communication, active listening, and teamwork to achieve the best results.
+                        </p>
+                    </div>
+                    <div class="faq1 border-b-2 mb-14 border-black">
+                        <input type="checkbox" name="" id="show-faq2">
+                        <h2 class=" text-2xl md:text-4xl text-black font-bold mb-3 flex justify-between">Integrity
+                            <label for="show-faq2" class="">
+                                <i class=" icon-arrow_drop_down bg-black rounded-full text-white text-2xl"></i>
+                            </label>
+                        </h2>
+                        <p class=" section-paragraph mb-3 max-h-0 overflow-hidden comment transition-all duration-500">
+                            My success is built on trust. I hold ourselves to the highest ethical standards, maintaining
+                            transparency, honesty,
+                            and integrity in all our interactions. I prioritize building long-term relationships with
+                            our clients and strive to be
+                            a trusted partner they can rely on.
+                        </p>
+                    </div>
+                    <div class="faq1 border-b-2 mb-14 border-black">
+                        <input type="checkbox" name="" id="show-faq3">
+                        <h2 class=" text-2xl md:text-4xl text-black font-bold mb-3 flex justify-between">Innovation
+                            <label for="show-faq3" class="">
+                                <i class=" icon-arrow_drop_down bg-black rounded-full text-white text-2xl"></i>
+                            </label>
+                        </h2>
+                        <p class=" section-paragraph mb-3 max-h-0 overflow-hidden comment transition-all duration-500">
+                            I thrive on innovation. As a forward-thinking developer, I embrace new technologies, trends,
+                            and ideas to push the
+                            boundaries of what's possible. I continually challenge ourselves to explore innovative
+                            solutions that help my clients
+                            stay ahead in the dynamic digital landscape.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="mx-auto mt-16 px-6 py-8 lg:px-14 lg:px-24 w-full">
+        <div class="grid grid-cols-12">
+            <div class="grid col-span-12 lg:grid lg:col-span-6 lg:sticky lg:h-fit lg:top-32">
+                <h1 class=" text-black text-5xl font-bold">Awards</h1>
+            </div>
+            <div class="grid col-span-12 lg:grid lg:col-span-6">
+                <div class="grid grid-cols-12">
+                    <div class="grid col-span-4 lg:grid lg:col-span-4">
+                        <p class=" text-black font-semibold text-lg mb-6">Dec 2022
+                        </p>
+                    </div>
+                    <div class="grid col-span-4 lg:grid lg:col-span-6">
+                        <p class=" text-black font-semibold text-lg mb-6">
+                            Outstanding Graduate in Software Development</p>
+                    </div>
+                    <div class="grid col-span-4 lg:grid lg:col-span-2">
+                        <p class=" text-black font-semibold text-lg mb-6">Codar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="client mt-0 w-fit md:w-full mx-auto py-28 px-4 bg-black">
+        <h4 class="text-white text-center font-bold mb-20 text-4xl lg:text-6xl lg:max-w-6xl max-w-3xl mx-auto">I strive
+            to collaborate and provide the best experience for our clients.</h4>
+        <div class="bg-white rounded-lg p-6 max-w-3xl lg:max-w-6xl mx-auto mt-20">
+            <h4 class=" text-black text-center font-bold mb-3">My Trusted Client</h4>
+            <div class="flex flex-wrap justify-around items-center">
+                <h2 class=" font-logo-font text-black font-bold text-1xl">GIGSHARE</h2>
+                <img src="./dist/img/codar-logo.png" alt="" class=" w-1/3 md:w-36">
+                <img src="./dist/img/cosi-logo.png" alt="" class=" w-20">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="lg:mt-0 mx-auto px-6 py-20 lg:px-14 lg:px-24 w-full relative">
+        <div
+            class="project flex justify-between items-center border-4 border-black rounded-lg px-6 py-24 relative bg-white">
+            <img src="./dist/img/project.png" alt="" class=" absolute w-1/5 md:w-36 -top-14 left-0">
+            <div class="project-text">
+                <h2 class=" project-title text-black lg:text-4xl mb-5 md:w-80 lg:w-full">Have a great project?</h2>
+                <p class=" section-paragraph text-black font-normal lg:text-lg mx-auto mb-10">Let's discuss your project
+                </p>
+                <a href="./contact.html" class="">
+                    <button
+                        class=" px-4 py-6 md:px-6 md:py-4 bg-black font-normal border-2 border-black shadow-xl hover:scale-110 transition-all duration-500">Schedule
+                        Call</button>
+                </a>
+            </div>
+            <img src="./dist/img/design.png" alt="" class=" w-1/3 md:w-36 lg:w-48 h-1/3 object-contain">
+            <img src="./dist/img/project1.svg" alt=""
+                class=" absolute w-1/5 md:w-36 lg:w-20 bottom-0 lg:-bottom-10 right-0">
+        </div>
+    </div>
+
+    <footer>
+        <div class="lg:mt-0 mx-auto px-6 py-10 lg:px-14 lg:px-24 w-full">
+            <div
+                class="footer-text grid grid-cols-12 md:gap-10 border-t-4 border-dashed border-black border-b-4 border-dashed border-black py-10">
+                <div class="header-text grid col-span-12 md:grid md:col-span-4">
+                    <a href="#home" class=" block mb-6">
+                        <div class=" text-3xl font-bold text-selected-text ">
+                            <img src="./dist/img/logo.png" alt="" class=" inline-block w-10">
+                            Code<span class=" text-black">verse</span>
+                        </div>
+                    </a>
+                    <p class=" section-paragraph mb-6">Whether you want to make a new website or talk about web
+                        sustainability, I'm ready to meet you!
+                    </p>
+                </div>
+                <div class="menu-text grid col-span-6 md:grid md:col-span-4 leading-10 self-center">
+                    <h4 class=" text-2xl font-bold md:text-3xl text-black mb-6">Menu</h4>
+                    <ul class=" text-black">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./work.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="utility-text grid col-span-6 md:grid md:col-span-4 leading-10">
+                    <h4 class=" text-2xl font-bold md:text-3xl text-black">Utility Pages</h4>
+                    <ul class=" text-black">
+                        <li>
+                            <a href="./changelog.html">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 grid grid-cols-12">
+                <!-- Socials -->
+                <div class="grid col-span-12 md:grid md:col-span-6">
+                    <div class="flex justify-center md:justify-normal space-x-6">
+                        <!-- Skype -->
+                        <a href="https://twitter.com/codenation11"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-twitter text-1xl text-black"></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://www.linkedin.com/in/vera-bassey-8a8345255/"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-linkedin  text-1xl text-black"></i>
+                        </a>
+                        <!-- Github -->
+                        <a href="https://github.com/programmingwithVee"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-github text-1xl text-black"></i>
+                        </a>
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/CodeVerse23"
+                            class=" bg-white border-2 border-black py-1 px-2 rounded-md hover:scale-110 transition-all duration-500">
+                            <i class="fa-brands fa-facebook  text-1xl text-black"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="by text-center text-black mt-6 grid col-span-12 md:grid md:col-span-6">
+                    <p class=" text-xs"> &copy; Codeverse by Vera Bassey. All rights reserved </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./main.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+</body>
+
+</html>
