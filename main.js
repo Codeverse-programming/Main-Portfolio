@@ -14,7 +14,7 @@
 //             divContainer.style.zIndex = '9998';
 //             divContainer.style.backgroundColor = '#F6F5F1';
 //             divContainer.style.transition = 'all 0.2s ease-in-out';
-            
+
 //             var div = document.createElement('h1');
 //             div.textContent = 'Codeverse';
 //             div.style.position = 'absolute';
