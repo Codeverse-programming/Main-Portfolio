@@ -960,6 +960,11 @@ video {
   background-color: rgb(255 132 63 / var(--tw-bg-opacity));
 }
 
+.bg-box2{
+  --tw-bg-opacity: 1;
+  background-color: rgb(83 152 255 / var(--tw-bg-opacity));
+}
+
 .bg-box3{
   --tw-bg-opacity: 1;
   background-color: rgb(49 212 173 / var(--tw-bg-opacity));
@@ -982,11 +987,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-box2{
-  --tw-bg-opacity: 1;
-  background-color: rgb(83 152 255 / var(--tw-bg-opacity));
 }
 
 .object-contain{
@@ -1433,14 +1433,14 @@ nav #burger:checked~ul {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:text-selected-text:hover{
-  --tw-text-opacity: 1;
-  color: rgb(244 111 111 / var(--tw-text-opacity));
-}
-
 .hover\:text-blue-500:hover{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.hover\:text-selected-text:hover{
+  --tw-text-opacity: 1;
+  color: rgb(244 111 111 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
